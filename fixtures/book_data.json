@@ -1,0 +1,64 @@
+[
+    {
+        "model": "books.category",
+        "pk": 1,
+        "fields": {
+            "title": "Fiction",
+            "description": "Books of fiction cateogory"
+        }
+    },
+    {
+        "model": "books.category",
+        "pk": 2,
+        "fields": {
+            "title": "Non-Fiction",
+            "description": "Books of non fiction category"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "name": "Michio Kaku",
+            "biography" : "a famous physicist"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 2,
+        "fields": {
+            "name": "Nils Digreson",
+            "biography": "An atrophysicist"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "Physics of the impossible",
+            "author": 1,
+            "category": 2,
+            "available_quantity": 5
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Dark Matter",
+            "author": 1,
+            "category": 1,
+            "available_quantity": 5
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Paradox of physics",
+            "author": 2,
+            "category": 2,
+            "available_quantity": 5
+        }
+    }
+]
